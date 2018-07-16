@@ -1,0 +1,16 @@
+{
+    "name": "Reddit Extension",
+    "version": "0.1",
+    "description": "Find and count low effort comments",
+    "icons": {
+        "16": "icon_16.png",
+        "32": "icon_32.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+    },
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
